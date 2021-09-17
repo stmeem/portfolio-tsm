@@ -37,6 +37,11 @@ const Nav = () => {
                 <a className="md:p-4 py-3 px-0 block">Skills</a>
               </Link>
             </li>
+            <li>
+              <Link href="#certificates">
+                <a className="md:p-4 py-3 px-0 block">Certificates</a>
+              </Link>
+            </li>
           </ul>
         </nav>
       </div>
