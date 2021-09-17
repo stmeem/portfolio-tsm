@@ -147,7 +147,7 @@ export default function Home() {
           <div />
         </div>
       </div>
-      <div className="lg:ml-20 lg:mr-20" id="project">
+      <div className="lg:ml-20 lg:mr-20" id="certificates">
         <div className="w-48 mx-auto pt-6 border-b-2 border-white text-center text-2xl text-black-700">
           Certificates
         </div>
