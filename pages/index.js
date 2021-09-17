@@ -16,7 +16,7 @@ export default function Home() {
         <div className="container lg:px-32 px-6">
           <h3 className="text-4xl  mb-2">Sumaiya Tasmeem</h3>
 
-          <h3 className="text-2xl mb-8 text-black-200">
+          <h3 className="xl:text-2xl lg:text-2xl md:text-2xl sm:text-xl  mb-8 text-black-200">
             I am Sumaiya Tasmeem. I have a passion for front-end web development
             and love to design websites for various devices.
           </h3>
