@@ -102,47 +102,46 @@ export default function Home() {
           Skills
         </div>
 
-        <div className=" p-10 lg:pb-28  grid grid-cols-3 sm:grid-cols-3 md:grid-cols-6 lg:grid-cols-6 xl:grid-cols-6 gap-5">
-          <h4 className="text-4xl mb-10">
+        <div className="p-10 lg:pb-28  grid grid-cols-2 sm:grid-cols-2 md:grid-cols-6 lg:grid-cols-6 xl:grid-cols-6 gap-5">
+          <h4 className="text-3xl xl:text-4xl lg:text-4xl md:text-3xl mb-10">
             <FaHtml5 />
-            <h2 className="mt-4 text-2xl"> HTML</h2>
+            <h2 className="mt-4 text-xl xl:text-2xl lg:text-2xl md:text-xl"> HTML</h2>
           </h4>
-          <h4 className="text-4xl mb-10">
+          <h4 className="text-3xl xl:text-4xl lg:text-4xl md:text-3xl mb-10">
             <FaCss3 />
-            <h2 className="mt-4 text-2xl"> CSS</h2>
+            <h2 className="mt-4 text-xl xl:text-2xl lg:text-2xl md:text-xl"> CSS</h2>
           </h4>
-          <h4 className="text-4xl mb-10">
+          <h4 className="text-3xl xl:text-4xl lg:text-4xl md:text-3xl mb-10">
             <FaSass />
-            <h2 className="mt-4 text-2xl">Sass</h2>
+            <h2 className="mt-4 text-xl xl:text-2xl lg:text-2xl md:text-xl">Sass</h2>
           </h4>
-          <h4 className="text-4xl mb-10">
+          <h4 className="text-3xl xl:text-4xl lg:text-4xl md:text-3xl mb-10">
             <FaBootstrap />
-            <h2 className="mt-4 text-2xl"> Bootstrap</h2>
+            <h2 className="mt-4 text-xl xl:text-2xl lg:text-2xl md:text-xl">Bootstrap</h2>
           </h4>
-          <h4 className="text-4xl mb-10">
+          <h4 className="text-3xl xl:text-4xl lg:text-4xl md:text-3xl mb-10">
             <SiTailwindcss />
-            <h2 className="mt-4 text-2xl">Tailwind CSS</h2>
+            <h2 className="mt-4 text-xl xl:text-2xl lg:text-2xl md:text-xl">Tailwind CSS</h2>
           </h4>
-          <h4 className="text-4xl mb-10">
+          <h4 className="text-3xl xl:text-4xl lg:text-4xl md:text-3xl mb-10">
             <SiJavascript />
-            <h2 className="mt-4 text-2xl">JavaScript</h2>
+            <h2 className="mt-4 text-xl xl:text-2xl lg:text-2xl md:text-xl">JavaScript</h2>
           </h4>
-          <h4 className="text-4xl mb-10">
+          <h4 className="text-3xl xl:text-4xl lg:text-4xl md:text-3xl mb-10">
             <FaReact />
-            <h2 className="mt-4 text-2xl"> ReactJS</h2>
+            <h2 className="mt-4 text-xl xl:text-2xl lg:text-2xl md:text-xl"> ReactJS</h2>
           </h4>
-          <h4 className="text-4xl mb-10">
+          <h4 className="text-3xl xl:text-4xl lg:text-4xl md:text-3xl mb-10">
             <SiNextDotJs/>
-            <h2 className="mt-4 text-2xl"> Next.js</h2>
+            <h2 className="mt-4 text-xl xl:text-2xl lg:text-2xl md:text-xl"> Next.js</h2>
           </h4>
-
-          <h4 className="text-4xl mb-10">
+          <h4 className="text-3xl xl:text-4xl lg:text-4xl md:text-3xl mb-10">
             <FaPython />
-            <h2 className="mt-4 text-2xl"> Python</h2>
+            <h2 className="mt-4 text-xl xl:text-2xl lg:text-2xl md:text-xl"> Python</h2>
           </h4>
-          <h4 className="text-4xl mb-10">
+          <h4 className="text-3xl xl:text-4xl lg:text-4xl md:text-3xl mb-10">
             <SiAdobephotoshop />
-            <h2 className="mt-4 text-2xl">Photoshop</h2>
+            <h2 className="mt-4 text-xl xl:text-2xl lg:text-2xl md:text-xl">Photoshop</h2>
           </h4>
           <div />
         </div>
