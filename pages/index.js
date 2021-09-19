@@ -36,7 +36,7 @@ export default function Home() {
           <Link href="https://dribbble.com/sumaiyatasmeem">
           <a target="_blank">
             <button className="border-2 border-white text-white py-2 px-4 tracking-wider hover:bg-white hover:text-black ml-4">
-              Dribble
+              Dribbble
             </button></a>
           </Link>
         </div>
