@@ -9,5 +9,5 @@ This project was built using these technologies
 - Vercel
 
 ## Demo
-[portfolio-tsm.vercel.app](portfolio-tsm.vercel.app)
+[portfolio-tsm.vercel.app](https://portfolio-tsm.vercel.app/)
 
