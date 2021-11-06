@@ -23,11 +23,6 @@ const Nav = () => {
         <nav>
           <ul className="md:flex items-center justify-between text-base text-white-700 pt-4 md:pt-0">
             <li>
-              <Link href="/">
-                <a className="md:p-4 py-3 px-0 block hover:underline">About</a>
-              </Link>
-            </li>
-            <li>
               <Link href="#project">
                 <a className="md:p-4 py-3 px-0 block hover:underline">Projects</a>
               </Link>
