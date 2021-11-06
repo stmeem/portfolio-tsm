@@ -2,7 +2,7 @@ import Link from "next/link";
 import {SiLinkedin, SiGithub, SiDribbble} from 'react-icons/si';
 const Footer = () => {
   return (
-    <footer className="bg-black text-white h-20 p-2">
+    <footer className="bg-black-light text-white h-20 p-2">
       <p className="text-center p-4">
         {" "}
         Developed by &copy; stmeem{" "}

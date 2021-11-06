@@ -3,7 +3,7 @@ import Link from "next/link";
 const Nav = () => {
   return (
     <>
-    <header className="bg-black text-white lg:px-32 px-8 bg-whitesmoke flex flex-wrap items-center py-2 shadow-md">
+    <header className="bg-black-light text-white lg:px-32 px-8 bg-whitesmoke flex flex-wrap items-center py-2 shadow-md">
       <div className="flex-1 flex justify-between items-center">
         <Link href="/"><a className="text-xl">
           Portfolio
