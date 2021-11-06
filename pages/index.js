@@ -12,15 +12,17 @@ import {SiJavascript,SiAdobephotoshop, SiNextDotJs, SiTailwindcss} from "react-i
 export default function Home() {
   return (
     <div className="bg-black-light text-white">
-      <div className="py-44">
+      <div className="py-20">
         <div className="container lg:px-32 px-6">
-          <h3 className="text-4xl  mb-2">Hello! I'm Sumaiya Tasmeem.</h3>
+        <img class="relative w-56 h-56 rounded-full mx-auto" src="/header/header.png" alt="" />
+          <h3 className="text-4xl text-center mb-2">Hello! I'm Sumaiya Tasmeem.</h3>
 
-          <h3 className="xl:text-2xl lg:text-2xl md:text-2xl sm:text-xl  mb-8 text-black-200">
-           I have a passion for front-end web development
-            and love to design websites for various devices.
+          <h3 className="xl:text-2xl lg:text-2xl md:text-2xl sm:text-xl text-center mb-8 text-gray-400">
+           A Front-End Web Developer passionate about creating interactive web applications.
+           With every line of code, I strive to make the website a beautiful place.
+            
           </h3>
-
+          <div className='flex justify-center'>
           <Link href="https://github.com/stmeem">
           <a target="_blank">
             <button className="border-2 border-white text-white py-2 px-4 tracking-wider hover:bg-white hover:text-black-default">
@@ -39,6 +41,7 @@ export default function Home() {
               Dribbble
             </button></a>
           </Link>
+          </div>
         </div>
       </div>
 
