@@ -11,7 +11,7 @@ import {SiJavascript,SiAdobephotoshop, SiNextDotJs, SiTailwindcss} from "react-i
 
 export default function Home() {
   return (
-    <div className="bg-black text-white">
+    <div className="bg-black-light text-white">
       <div className="py-44">
         <div className="container lg:px-32 px-6">
           <h3 className="text-4xl  mb-2">Sumaiya Tasmeem</h3>
@@ -46,57 +46,63 @@ export default function Home() {
         <div className="w-48 mx-auto pt-6 border-b-2 border-white text-center text-2xl text-black-700">
           Projects
         </div>
-        <div class="p-10 lg:pb-28  grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-5">
-          <div class="border-2 border-white shadow-lg rounded overflow-hidden pb-8">
-            <div class="px-6 py-4">
-              <div class="font-bold text-xl mb-2">Recipe</div>
-              <p class="text-gray-400 text-base">
-                A simple React web application that uses the Edamam API to
-                search and display different kind of recipes.
-              </p>
-              <Link href="https://github.com/stmeem/recipe">
-                <a target="_blank">
-                  <button className="border-2 border-white text-white py-2 px-4 my-4 hover:bg-white hover:text-black">
-                    Source Code
-                  </button>
-                </a>
-              </Link>
-            </div>
-          </div>
-          <div class="border-2 border-white shadow-lg rounded overflow-hidden pb-8">
-            <div class="px-6 py-4">
-              <div class="font-bold text-xl mb-2">Covid-19 Webmap</div>
-              <p class="text-gray-400 text-base">
+        <div class="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5">
+        <div class="rounded overflow-hidden shadow-lg">
+          <img class="w-full h-60" src="/projects/covid-map.png" alt="covid-map" />
+          <div class="px-6 py-4">
+          <div class="font-bold text-xl mb-2">Covid-19 Webmap</div>
+              <p class="text-gray-700 text-base">
                 COVID19 map visualization using python libraries based on Johns
                 Hopkins live data set.
               </p>
               <Link href="https://github.com/stmeem/covid19-map">
                 <a target="_blank">
-                  <button className="border-2 border-white text-white py-2 px-4 my-4 hover:bg-white hover:text-black">
+                  <button className=" text-blue-400  py-2  my-4  hover:text-blue-600">
                     Source Code
                   </button>
                 </a>
               </Link>
-            </div>
           </div>
-          <div class="border-2 border-white shadow-lg rounded overflow-hidden pb-8">
-            <div class="px-6 py-4">
-              <div class="font-bold text-xl mb-2">Book Finder</div>
-              <p class="text-gray-400 text-base">
-                Book Finder is a React web application that uses the Google Book
+        </div>
+
+        <div class="rounded overflow-hidden shadow-lg">
+          <img class="w-full h-60" src="/projects/recipe.png" alt="Strawberry" />
+          <div class="px-6 py-4">
+          <div class="font-bold text-xl mb-2">Recipe</div>
+              <p class="text-gray-700 text-base">
+              A simple React web application that uses the Edamam API to
+                search and display different kind of recipes.
+              </p>
+              <Link href="https://github.com/stmeem/recipe">
+                <a target="_blank">
+                  <button className=" text-blue-400  py-2  my-4  hover:text-blue-600">
+                    Source Code
+                  </button>
+                </a>
+              </Link>
+          </div>
+        </div>
+        <div class="rounded overflow-hidden shadow-lg">
+          <img class="w-full h-60" src="/projects/book-finder.png" alt="Olive" />
+          <div class="px-6 py-4">
+          <div class="font-bold text-xl mb-2">Book Finder</div>
+              <p class="text-gray-700 text-base">
+              Book Finder is a React web application that uses the Google Book
                 API to search and display the list of the books.
               </p>
               <Link href="https://github.com/stmeem/book-finder">
                 <a target="_blank">
-                  <button className="border-2 border-white text-white py-2 px-4 my-4 hover:bg-white hover:text-black">
+                  <button className=" text-blue-400  py-2  my-4  hover:text-blue-600">
                     Source Code
                   </button>
                 </a>
               </Link>
-            </div>
           </div>
         </div>
       </div>
+    </div>
+         
+            
       <div className="lg:ml-20 lg:mr-20" id='skills'>
         <div className="w-48 mx-auto pt-6 border-b-2 border-white text-center text-2xl text-black-700">
           Skills
@@ -182,7 +188,9 @@ export default function Home() {
             </div>
           </div>
           </div></div>
-      
+
+       
+
     </div>
   );
 }
