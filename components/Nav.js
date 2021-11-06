@@ -24,22 +24,22 @@ const Nav = () => {
           <ul className="md:flex items-center justify-between text-base text-white-700 pt-4 md:pt-0">
             <li>
               <Link href="/">
-                <a className="md:p-4 py-3 px-0 block">About</a>
+                <a className="md:p-4 py-3 px-0 block hover:underline">About</a>
               </Link>
             </li>
             <li>
               <Link href="#project">
-                <a className="md:p-4 py-3 px-0 block">Projects</a>
+                <a className="md:p-4 py-3 px-0 block hover:underline">Projects</a>
               </Link>
             </li>
             <li>
               <Link href="#skills">
-                <a className="md:p-4 py-3 px-0 block">Skills</a>
+                <a className="md:p-4 py-3 px-0 block hover:underline">Skills</a>
               </Link>
             </li>
             <li>
               <Link href="#certificates">
-                <a className="md:p-4 py-3 px-0 block">Certificates</a>
+                <a className="md:p-4 py-3 px-0 block hover:underline">Certificates</a>
               </Link>
             </li>
           </ul>
