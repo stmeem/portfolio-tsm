@@ -14,28 +14,28 @@ export default function Home() {
     <div className="bg-black-light text-white">
       <div className="py-44">
         <div className="container lg:px-32 px-6">
-          <h3 className="text-4xl  mb-2">Sumaiya Tasmeem</h3>
+          <h3 className="text-4xl  mb-2">Hello! I'm Sumaiya Tasmeem.</h3>
 
           <h3 className="xl:text-2xl lg:text-2xl md:text-2xl sm:text-xl  mb-8 text-black-200">
-            I am Sumaiya Tasmeem. I have a passion for front-end web development
+           I have a passion for front-end web development
             and love to design websites for various devices.
           </h3>
 
           <Link href="https://github.com/stmeem">
           <a target="_blank">
-            <button className="border-2 border-white text-white py-2 px-4 tracking-wider hover:bg-white hover:text-black">
+            <button className="border-2 border-white text-white py-2 px-4 tracking-wider hover:bg-white hover:text-black-default">
               Github
             </button></a>
           </Link>
           <Link href="https://www.linkedin.com/in/sumaiyatasmeem/">
           <a target="_blank">
-            <button className="border-2 border-white text-white py-2 px-4 tracking-wider hover:bg-white hover:text-black ml-4">
+            <button className="border-2 border-white text-white py-2 px-4 tracking-wider hover:bg-white hover:text-black-default ml-4">
               LinkedIn
             </button></a>
           </Link>
           <Link href="https://dribbble.com/sumaiyatasmeem">
           <a target="_blank">
-            <button className="border-2 border-white text-white py-2 px-4 tracking-wider hover:bg-white hover:text-black ml-4">
+            <button className="border-2 border-white text-white py-2 px-4 tracking-wider hover:bg-white hover:text-black-default ml-4">
               Dribbble
             </button></a>
           </Link>
@@ -47,11 +47,11 @@ export default function Home() {
           Projects
         </div>
         <div class="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5">
-        <div class="rounded overflow-hidden shadow-lg">
-          <img class="w-full h-60" src="/projects/covid-map.png" alt="covid-map" />
+        <div class="rounded overflow-hidden shadow-xl hover:shadow-2xl">
+          <img class="w-full h-56" src="/projects/covid-map.png" alt="covid-map" />
           <div class="px-6 py-4">
           <div class="font-bold text-xl mb-2">Covid-19 Webmap</div>
-              <p class="text-gray-700 text-base">
+              <p class="text-gray-400 text-base">
                 COVID19 map visualization using python libraries based on Johns
                 Hopkins live data set.
               </p>
@@ -65,11 +65,11 @@ export default function Home() {
           </div>
         </div>
 
-        <div class="rounded overflow-hidden shadow-lg">
-          <img class="w-full h-60" src="/projects/recipe.png" alt="Strawberry" />
+        <div class="rounded overflow-hidden shadow-xl hover:shadow-2xl">
+          <img class="w-full h-56" src="/projects/recipe.png" alt="Strawberry" />
           <div class="px-6 py-4">
           <div class="font-bold text-xl mb-2">Recipe</div>
-              <p class="text-gray-700 text-base">
+              <p class="text-gray-400 text-base">
               A simple React web application that uses the Edamam API to
                 search and display different kind of recipes.
               </p>
@@ -82,11 +82,11 @@ export default function Home() {
               </Link>
           </div>
         </div>
-        <div class="rounded overflow-hidden shadow-lg">
-          <img class="w-full h-60" src="/projects/book-finder.png" alt="Olive" />
+        <div class="rounded overflow-hidden shadow-xl hover:shadow-2xl">
+          <img class="w-full h-56" src="/projects/book-finder.png" alt="Olive" />
           <div class="px-6 py-4">
           <div class="font-bold text-xl mb-2">Book Finder</div>
-              <p class="text-gray-700 text-base">
+              <p class="text-gray-400 text-base">
               Book Finder is a React web application that uses the Google Book
                 API to search and display the list of the books.
               </p>
@@ -153,7 +153,7 @@ export default function Home() {
         </div>
       </div>
       <div className="lg:ml-20 lg:mr-20" id="certificates">
-        <div className="w-48 mx-auto pt-6 border-b-2 border-white text-center text-2xl text-black-700">
+        <div className="w-48 mx-auto pt-6 border-b-2 border-white text-center text-2xl ">
           Certificates
         </div>
         <div class="p-10 lg:pb-28  grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-5">
@@ -165,7 +165,7 @@ export default function Home() {
               </p>
               <Link href="https://www.udemy.com/certificate/UC-4d37a055-6198-4f5b-a93e-01dfc32cff58/">
                 <a target="_blank">
-                  <button className="border-2 border-white text-white py-2 px-4 my-4 hover:bg-white hover:text-black">
+                  <button className="border-2 border-white text-white py-2 px-4 my-4 hover:bg-white hover:text-black-default">
                     View Certificate
                   </button>
                 </a>
@@ -180,7 +180,7 @@ export default function Home() {
               Responsive web design is all about creating the best user experience regardless of whether a user is accessing your site from a desktop computer, a mobile phone, or a tablet. This course is offered by University of London. </p>
               <Link href="https://www.coursera.org/account/accomplishments/certificate/GEQGVATAW8DF">
                 <a target="_blank">
-                  <button className="border-2 border-white text-white py-2 px-4 my-4 hover:bg-white hover:text-black">
+                  <button className="border-2 border-white text-white py-2 px-4 my-4 hover:bg-white hover:text-black-default">
                   View Certificate
                   </button>
                 </a>
